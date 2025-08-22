@@ -1,6 +1,6 @@
 ## cisco_catc_commandrunner
 
-## Catalyst center command runner to find cdp neighbors
+## Catalyst center command runner functionality to find cdp neighbors
 Cisco Catalyst Center managing your network devices can be queried to find out cdp neighbors easily without ssh to individual devices. Catalyst center keeps
 track of all devices and command runner api allows to run commands on all those devices. This code shows how to achieve same. 
 
