@@ -13,7 +13,7 @@ Use command runner API to derive needed information from Catalyst Center directl
 ## Installation
 Clone the repo
 ```bash
-git clone https://github.com/CiscoCSS/.git
+git clone https://github.com/CiscoCSS/catc_commandrunner
 ```
 or Download as zip on your environment by clicking the option "code >> local >> Download as zip"
 
