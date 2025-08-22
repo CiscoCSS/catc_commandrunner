@@ -5,7 +5,7 @@ Cisco Catalyst Center managing your network devices can be queried to find out c
 track of all devices and command runner api allows to run commands on all those devices. This code shows how to achieve same. This code works against Catalyst Center release 2.3.7.9. 
 
 ## Business Challenge
-Find out all cdp neighbors on scale. Example: PnP will have those neigbor device that can be onboarded from neigbor list that is generated. Like - IE3400.
+Find out all cdp neighbors on scale. Example: PnP will have those neigbor device that can be onboarded from neigbor list that is generated. Like - IE3300.
 
 ## Goal
 Use command runner API to derive needed information from Catalyst Center directly. 
