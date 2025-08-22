@@ -2,7 +2,7 @@
 
 ## Catalyst center command runner functionality to find cdp neighbors
 Cisco Catalyst Center managing your network devices can be queried to find out cdp neighbors easily without ssh to individual devices. Catalyst center keeps
-track of all devices and command runner api allows to run commands on all those devices. This code shows how to achieve same. 
+track of all devices and command runner api allows to run commands on all those devices. This code shows how to achieve same. This code works against Catalyst Center release 2.3.7.9. 
 
 ## Business Challenge
 Find out all cdp neighbors on scale. Example: PnP will have those neigbor device that can be onboarded from neigbor list that is generated. Like - IE3400.
@@ -107,7 +107,7 @@ These terms govern this Cisco Systems, Inc. (“Cisco”), example or demo sourc
 
 7. GENERAL: This License shall be governed by and interpreted in accordance with the laws of the State of California, excluding its conflict of laws provisions. You agree to comply with all applicable United States export laws, rules, and regulations. If any provision of this License is judged illegal, invalid, or otherwise unenforceable, that provision shall be severed and the rest of the License shall remain in full force and effect. No failure by Cisco to enforce any of its rights related to the Sample Code or to a breach of this License in a particular situation will act as a waiver of such rights. In the event of any inconsistencies with any other terms, this License shall take precedence.
 
-Last updated 2018. Modify code to fit your environment. 
+Last updated 2025. Modify code to fit your environment. 
 
 ## Disclaimer
 This document contains guidance based on Cisco’s recommended practices. You remain responsible for determining whether to employ this guidance, whether it fits your network design, business needs, and whether the guidance complies with laws, including any regulatory, security, or privacy requirements applicable to your business.
