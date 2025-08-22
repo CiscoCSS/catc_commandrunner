@@ -88,8 +88,7 @@ LIMIT = 5    #you can change this 500 to scale up on how many devices it queries
 ```
 Run - python `command_runner.py` and test, if it picks up all cdp neighbors on all devices and generates same. Validate. You 
 can also modify the script and run it against a device family to get cdp neighbors. For troubleshooting purpose you can easily troubleshoot with device id level too.
-You should see a `VlanReport_timestamp.csv` file and `vlan_run_timestamp.log` file gets generated. Check the log file and
-Validate output against your environment for the runs. It generates log file for you to review. 
+Check the log file `cdp_run_timestamp.log`. Validate output against your environment for the runs. For troubleshooting, you can comment out -filename=f"cdp_run_{datetime.datetime.now().strftime(DATE_FORMAT)[:-3]}.log" line from command runner.py file then logs will be writing at your console level.
 
 **Recommend:** Extensive testing in your lab against all scenarios. Check if it picks up all devices and it's associated neighbors and tweak where needed. 
 
