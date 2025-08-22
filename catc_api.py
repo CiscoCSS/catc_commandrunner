@@ -196,7 +196,7 @@ def check_task_id_detail(task_id, dnac_jwt_token, catc_url):
     """
     This function will check the status of the task with the id {task_id}. Loop one seconds increments until task is completed
     :param task_id: task id
-    :param dnac_jwt_token: DNA C token
+    :param dnac_jwt_token: Catalyst Center token
     :param catc_url: Catalyst Center url
     :return:
     """
@@ -238,7 +238,7 @@ def get_content_file_id(file_id, dnac_jwt_token, catc_url):
     """
     This function will download a file specified by the {file_id}
     :param file_id: file id
-    :param dnac_jwt_token: DNA C token
+    :param dnac_jwt_token: Catalyst Center token
     :param catc_url: Catalyst Center url
     :return: file
     """
@@ -267,7 +267,7 @@ def get_output_command_runner(command, device_id, dnac_jwt_token, catc_url):
     hostname {device}
     :param command: CLI command list
     :param device_id: device id
-    :param dnac_jwt_token: DNA C token
+    :param dnac_jwt_token: Catalyst Center token
     :param catc_url: Catalyst Center url
     :return: file with the command output
     """
